@@ -1,6 +1,6 @@
 # 1. Van-e a sorozatban 100-zal osztható szám?
 
-def egy():
+def egy(lista):
     van_e= False
     i = 0
     while not van_e and i<len(lista):
