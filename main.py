@@ -20,4 +20,6 @@ with open("input.txt","r",encoding="utf8") as f:
     for sor in f:
         lista.append(int(sor))
 
-egy()
+
+print("1. Van-e a sorozatban 100-zal osztható szám?")
+egy(lista)
