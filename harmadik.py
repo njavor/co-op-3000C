@@ -1,0 +1,2 @@
+def három(lista):
+    
