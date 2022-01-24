@@ -14,6 +14,15 @@ Minden feladat előtt a program írja ki a feladat sorszámát!
 10. Mennyi a sorozatban található legkisebb szám fele?
 """
 from első import egy
+from második import kettő
+from harmadik import három
+from negyedik import négy
+from ötödik import öt
+from hatodik import hat
+from hetedik import hét
+from nyolcadik import nyolc
+from kilencedik import kilenc
+from tizedik import tíz
 
 lista = []
 with open("input.txt","r",encoding="utf8") as f:
