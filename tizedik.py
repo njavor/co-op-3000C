@@ -1,4 +1,4 @@
-def tiz(lista):
+def tíz(lista):
     legkis = lista[0]
     for elem in lista:
         if legkis > elem:
