@@ -13,8 +13,11 @@ Minden feladat előtt a program írja ki a feladat sorszámát!
 9. Van-e a sorozatban olyan negatív szám, amelyet pozitív követ?
 10. Mennyi a sorozatban található legkisebb szám fele?
 """
+from első import egy
 
 lista = []
 with open("input.txt","r",encoding="utf8") as f:
     for sor in f:
         lista.append(int(sor))
+
+egy()
