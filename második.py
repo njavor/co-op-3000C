@@ -9,4 +9,4 @@ def kettő (lista):
         i+=1
             
 
-    print (kettő)        
+    print (index)        
