@@ -1,8 +1,8 @@
 from első import egy
 from második import kettő
-from harmadik import három
-from negyedik import négy
-from ötödik import öt
+#from harmadik import három
+#from negyedik import négy
+#from ötödik import öt
 from hatodik import hat
 from hetedik import hét
 from nyolcadik import nyolc
@@ -14,6 +14,7 @@ with open("input.txt","r",encoding="utf8") as f:
     for sor in f:
         lista.append(int(sor))
 
+"""
 print("1. Van-e a sorozatban 100-zal osztható szám?")
 egy(lista)
 print("2. Írjuk ki az utolsó 7-tel osztható szám indexét!")
@@ -34,3 +35,4 @@ print("9. Van-e a sorozatban olyan negatív szám, amelyet pozitív követ?")
 kilenc(lista)
 print("10. Mennyi a sorozatban található legkisebb szám fele?")
 tíz(lista)
+"""
