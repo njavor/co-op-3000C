@@ -18,8 +18,8 @@ print("1. Van-e a sorozatban 100-zal osztható szám?")
 egy(lista)
 print("2. Írjuk ki az utolsó 7-tel osztható szám indexét!")
 kettő(lista)
-"""
 print("3. Írjuk ki az első 19-cel osztható szám indexét!")
+"""
 három(lista)
 print("4. Mennyi a sorozatban található számok átlagának a négyzete?")
 négy(lista)
